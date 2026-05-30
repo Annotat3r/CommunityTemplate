@@ -1,0 +1,73 @@
+{
+    "$schema": "./mfdevice.schema.json",
+    "Info": {
+      "Label": "RG's NavRadio737",
+      "Type": "NavRadio737",
+      "Author": "RG",
+      "URL": "https://github.com",
+      "Version" : "1.0.0"
+    },
+    "Config": {
+      "Pins": [
+      ],
+      "isI2C": false
+    },
+    "MessageTypes": [
+      {
+        "id": -1,
+        "label": "Shutdown Mode, turn off screen",
+        "description": "$ is laminar/B738/electric/ac_stdbus_status"
+      },
+      {
+        "id": 0,
+        "label": "Show Active Frequency",
+        "description": "$ is laminar/radios/pilot/nav_freq"
+      },
+      {
+        "id": 1,
+        "label": "Show Active Mode",
+        "description": "$ is laminar/B738/mmr/cpt/act_mode"
+      },
+      {
+        "id": 2,
+        "label": "Show Standby Mode",
+        "description": "$ is laminar/B738/mmr/cpt/stby_mode"
+      },
+      {
+        "id": 3,
+        "label": "Standby Frequency Ones digit",
+        "description": "$ is laminar/B738/mmr/cpt/stby_value[0]"
+      },
+      {
+        "id": 4,
+        "label": "Standby Frequency Tens digit",
+        "description": "$ is laminar/B738/mmr/cpt/stby_value[1]"
+      },
+      {
+        "id": 5,
+        "label": "Standby Frequency Hundreds digit",
+        "description": "$ is laminar/B738/mmr/cpt/stby_value[2]"
+      },
+      {
+        "id": 6,
+        "label": "Standby Frequency Thousands digit",
+        "description": "$ is laminar/B738/mmr/cpt/stby_value[3]"
+      },
+      {
+        "id": 7,
+        "label": "Standby Frequency Ten-Thousands digit",
+        "description": "$ is laminar/B738/mmr/cpt/stby_value[4]"
+      },
+      {
+        "id": 8,
+        "label": "Standby Frequency Cursor Position",
+        "description": "$ is laminar/B738/mmr/cpt/stby_cursor"
+      },
+      {
+        "id": 9,
+        "label": "Standby Frequency Value Error",
+        "description": "$ is laminar/B738/mmr/cpt/err"
+      }
+    ]
+  }
+  
